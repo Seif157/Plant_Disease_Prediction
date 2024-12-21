@@ -46,18 +46,33 @@ if(app_mode=="Home"):
 #About Project
 elif(app_mode=="About"):
     st.header("About Creator")
-    image_path = "Final_Pic.JPG"
-    st.image(image_path,width=250)
-    st.markdown("""
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.markdown("""
                 #### Dhillipkumar M
                 Christ University, Bangalore
-                #### Contact Details
-                Phone Number : 7639902361\n
-                Email : dhillipkumar2001@gmail.com\n
-                Linkedin : www.linkedin.com/in/dhillipkumar-m-893854193\n
-                GitHub : https://github.com/Dhillipkumar
-
+                #### 2348026
                 """)
+    with col2:
+        st.markdown("""
+                #### A R Arun Kumar
+                Christ University, Bangalore
+                #### 2348001
+                """)
+
+    with col3:
+        st.markdown("""
+                #### Dan Christopher
+                Christ University, Bangalore
+                #### 2348024
+                """)
+    with col4:
+        st.markdown("""
+                #### Sahaya Jeon Ronaldo
+                Christ University, Bangalore
+                #### 2348051
+                """)
+
 
 #Prediction Page
 elif(app_mode=="Disease Recognition"):
