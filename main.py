@@ -100,13 +100,13 @@ elif app_mode == "About":
     st.header("About Creator")
     st.markdown("## 👥 Team Members - Tanta University")
     members = [
-        {"name": "Seif El-Deen Abd El-Fatah", "id": "2100001"},
-        {"name": "Zyad Wael Attia", "id": "2100002"},
-        {"name": "Ahemd Yousef", "id": "2100003"},
-        {"name": "Ahmed Abou-Setah", "id": "2100004"},
-        {"name": "Samir Mohamed Samir", "id": "2100005"},
-        {"name": "Mohamed Maher", "id": "2100006"},
-        {"name": "Seif El-Eslam Mohamed", "id": "2100007"},
+        {"name": "Seif El-Deen Abd El-Fatah", "id": "01091070852"},
+        {"name": "Zyad Wael Attia", "id": "01017826329"},
+        {"name": "Ahemd Yousef", "id": "01017053481"},
+        {"name": "Ahmed Abou-Setah", "id": "01050231883"},
+        {"name": "Samir Mohamed Samir", "id": "01016718846"},
+        {"name": "Mohamed Maher", "id": "01156656502"},
+        {"name": "Seif El-Eslam Mohamed", "id": "01093163091"},
     ]
 
     for member in members:
@@ -118,9 +118,9 @@ elif app_mode == "About":
         """)
 
     st.markdown("---")
-    st.markdown("### Supervised by Doctor Hany")
+    st.markdown("### Supervised by Dr/ Hany El-Gaish && Eng/ Mohamed El-Sharkawy ")
     st.markdown(
-        "### Special Thanks to Doctor Hany for his support and guidance throughout this project.")
+        "### Special Thanks to Dr/ Hany and Eng/ Mohamed for his support and guidance throughout this project.")
     st.markdown("### We hope you find our system helpful and informative!")
 
 # Prediction Page
